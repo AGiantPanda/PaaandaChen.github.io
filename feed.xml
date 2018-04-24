@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NAUGHTY CHEN</title>
+    <description>A jekyll website for Zhuohan Chen</description>
+    <link>https://paaandachen.github.io/</link>
+    <atom:link href="https://paaandachen.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 25 Apr 2018 00:44:07 +0800</pubDate>
+    <lastBuildDate>Wed, 25 Apr 2018 00:44:07 +0800</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>Take Me Home</title>
+        <description>&lt;p&gt;This is a Game Project we made using Unity 5. We created the map based on real Taipeiroads. Player should guide characters to their homes as quick as possible.&lt;/p&gt;
+
+&lt;p&gt;Every character’s &lt;em&gt;destination&lt;/em&gt; was randomly generated, during the game you need to control where each player goes at each corner, or they will go any place as they want. If characters ran into each other at the road, they will talk (or fight if they are both dogs) for a while. And there will even be ghosts in the night!&lt;/p&gt;
+
+&lt;p&gt;So, guide them home as quick as possible, if there are too many characters on the map you will lose the game.&lt;/p&gt;
+
+&lt;p&gt;Also check &lt;a href=&quot;https://www.youtube.com/watch?v=EGWDwZQVflw&quot;&gt;&lt;code&gt;this video&lt;/code&gt;&lt;/a&gt; for more details.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 01 Jan 2018 21:46:52 +0800</pubDate>
+        <link>https://paaandachen.github.io/blog/2018/take-me-home/</link>
+        <guid isPermaLink="true">https://paaandachen.github.io/blog/2018/take-me-home/</guid>
+        
+        
+        <category>game,</category>
+        
+        <category>unity</category>
+        
+      </item>
+    
+      <item>
+        <title>Video Stablization with CUDA Implementation</title>
+        <description>&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;A video captured with a hand-held device (e.g., a cell-phone or a portable camcorder) often appears remarkably shaky and undi-rected. Digital videostabilization improves the video quality by re-moving unwanted camera motion. We implement a video stabilization method [Liu et al. 2013] which models cam-era motion with a bundle of (multiple) camera paths. The model is based on a mesh-based, spatially-variant motion representation and an adaptive, space-time path optimization. Also, the motion representation allows users to fundamentally handle parallax and rolling shutter effects while it does not require long feature trajectories or sparse 3D reconstruction. Furthermore, we speed up this method by parallelizing some parts with CUDA support. Check this &lt;a href=&quot;https://naughtychen.cc/GPU_Final/&quot;&gt;webpage&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;h1 id=&quot;features&quot;&gt;Features&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bundled Video Stablizatioon&lt;/li&gt;
+  &lt;li&gt;CUDA support&lt;/li&gt;
+  &lt;li&gt;OpenCL&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 10 Jun 2017 21:46:52 +0800</pubDate>
+        <link>https://paaandachen.github.io/blog/2017/video-stablization/</link>
+        <guid isPermaLink="true">https://paaandachen.github.io/blog/2017/video-stablization/</guid>
+        
+        
+        <category>computer</category>
+        
+        <category>vision,</category>
+        
+        <category>cuda,</category>
+        
+        <category>video</category>
+        
+        <category>stablization</category>
+        
+      </item>
+    
+      <item>
+        <title>Hair Rendering based on Pbrt v2</title>
+        <description>&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;The third version of PBRT code supports hair rendering by default, yet those beautiful hair model can’t be rendered in pbrt v2. We implemented this hair scattering model based on the method it provide. Check &lt;a href=&quot;http://naughtychen.cc/HW_PBRT/&quot;&gt;&lt;code&gt;this website&lt;/code&gt;&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;h1 id=&quot;features&quot;&gt;Features&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hair Rendering&lt;/li&gt;
+  &lt;li&gt;Physical based rendering&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 02 Jan 2017 21:46:52 +0800</pubDate>
+        <link>https://paaandachen.github.io/blog/2017/hair-rendering/</link>
+        <guid isPermaLink="true">https://paaandachen.github.io/blog/2017/hair-rendering/</guid>
+        
+        
+        <category>computer</category>
+        
+        <category>graphics,</category>
+        
+        <category>hair</category>
+        
+        <category>rendering,</category>
+        
+        <category>physical</category>
+        
+        <category>based</category>
+        
+        <category>rendering</category>
+        
+      </item>
+    
+      <item>
+        <title>Water Rendering</title>
+        <description>&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;We successfuly rendered the water on our &lt;a href=&quot;https://naughtychen.cc/ICG_HW/&quot;&gt;webpage&lt;/a&gt; using ray-marching method based on WebGL. The ocean is simulated by ridged multi-fractal algorithm. We also added a floating ball to test the reflection and refraction of the water. And a VR mode to watch it on your mobile device with Google Cardboard.&lt;/p&gt;
+
+&lt;h1 id=&quot;features&quot;&gt;Features&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Water Rendering&lt;/li&gt;
+  &lt;li&gt;Ray-marching&lt;/li&gt;
+  &lt;li&gt;VR mode&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 01 Jan 2017 21:46:52 +0800</pubDate>
+        <link>https://paaandachen.github.io/blog/2017/water-rendering/</link>
+        <guid isPermaLink="true">https://paaandachen.github.io/blog/2017/water-rendering/</guid>
+        
+        
+        <category>computer</category>
+        
+        <category>graphics,</category>
+        
+        <category>water</category>
+        
+        <category>rendering,</category>
+        
+        <category>vr</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome</title>
+        <description>&lt;p&gt;Welcome my friend.&lt;/p&gt;
+
+&lt;p&gt;This website is still under building, so if you wanna look around u can check my bios &lt;a href=&quot;https://naughtychen.cc/about/&quot;&gt;&lt;code&gt;here&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;And here is a joke for you:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;A Roman soldier walked into a bar. He held up two fingers and said to the bartender,  &lt;strong&gt;“Five beers please.”&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 01 Apr 2016 21:46:52 +0800</pubDate>
+        <link>https://paaandachen.github.io/blog/2016/welcome-post/</link>
+        <guid isPermaLink="true">https://paaandachen.github.io/blog/2016/welcome-post/</guid>
+        
+        
+        <category>none</category>
+        
+      </item>
+    
+  </channel>
+</rss>
